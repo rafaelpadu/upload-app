@@ -1,0 +1,21 @@
+.boxMain {
+  background-color: #ffffff;
+  -webkit-box-shadow: 1px 1px 8px rgb(50 50 50 / 42%);
+  -moz-box-shadow: 1px 1px 8px rgb(50 50 50 / 42%);
+  box-shadow: 1px 1px 8px rgb(50 50 50 / 42%);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.boxMain h1,
+h2 {
+  font-weight: 500;
+  color: #4f4f4f;
+  margin: 1rem 0;
+}
+.boxMain h2 {
+  margin: 0;
+}

@@ -1,0 +1,41 @@
+.loading-container {
+  width: 405px;
+  height: 250px;
+
+  color: #4f4f4f;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  padding-left: 1rem;
+}
+
+.loading-container div {
+  width: 340px;
+  height: 11px;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+}
+
+.loading-container div div {
+  width: 120px;
+  height: 11px;
+
+  background-color: #2f80ed;
+  border-radius: 15px;
+  margin-top: 2.4rem;
+
+  animation-duration: 2s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes slidein {
+  from {
+    margin-left: 0%;
+    width: 35%;
+  }
+
+  to {
+    margin-left: 65%;
+    width: 35%;
+  }
+}
