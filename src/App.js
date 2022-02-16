@@ -3,6 +3,7 @@ import { BrowserRouter } from "react-router-dom";
 import Body from "./components/layout/Body";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Footer from "./components/layout/Footer";
 
 export const FormDataContext = React.createContext({
   formData: {},
@@ -26,6 +27,7 @@ function App() {
         closeOnClick={true}
         pauseOnHover={true}
       />
+      <Footer />
     </div>
   );
 }
